@@ -4,6 +4,8 @@ This project utilizes Streamlit and Python to recommend similar songs based on u
 
 install libraries:
 pip install pandas numpy seaborn matplotlib streamlit
+
+
 Additionally, you'll need to install tfidVector and NearestNeighbors. Ensure they are installed correctly; if they are custom libraries, provide instructions for installation.
 
 Run the following command to execute the application: 
@@ -13,6 +15,7 @@ Determine Filter Column:
 
 The function first determines the column to filter based on the user input. It considers columns such as "artists," "track_name," "album_name," and "track_genre."
 TF-IDF Vectorization:
+
 
 It then utilizes TF-IDF vectorization to convert the textual features of the songs into numerical vectors. This process is crucial for finding similarity between songs based on their textual attributes.
 Nearest Neighbors Model Fitting:
